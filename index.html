@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="p-2 bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1">
+            <div class="container-fluid">
+                <img src="./images/logo.png" with="50" height="50"/>
+                <!--Menú de hamburguesa-->
+                <button class="navbar-toggler" data-bs-target="#navbarColapsable" type="button" data-bs-toggle="collapse" aria-controls="navbarColapsable" aria-expanded="false" aria-label="Toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColapsable">
+                    <ul class="navbar-nav col-8">
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="./caracteristicas.html">Caracteristicas</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="./contactos.html">Contacto</a>
+                        </li>
+                        <!--Dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menú Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./opcion1.html">Opción 1</a></li>
+                                <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                                <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                            </ul>
+                        </li>
+                        <!---->
+                    </ul>
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="Search" aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-outline-secondary">Buscar</button>
+                      </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <!-- breadcrumb -->
+        <div class="row">
+            <div class="p-3 col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+        <!-- Logo y Encabezado -->
+        <div class="row">
+            <div class="col-3">
+                <!-- style="height: 31rem;" -->
+                <div class="card" >
+                    <img src="./images/logo 2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ipsum magnam corrupti sit, distinctio laboriosam placeat rem tempore error nemo vero ullam soluta ut modi nam eius aspernatur corporis aliquam facilis cupiditate.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-9">
+                <div class="card">
+                    <h5 class="card-header">PÁGINA INICIO - Encabezado</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Subtitulo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda at molestiae dolorum facere magnam accusantium nihil nam aperiam in sed quibusdam consequatur doloribus beatae dicta maiores modi nisi, tempore quo hic minus numquam voluptas aspernatur? Officia accusamus incidunt consectetur praesentium repudiandae ratione sed atque harum, omnis obcaecati voluptatibus error!</p>
+                        <p class="card-text"> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi sint fugit laudantium aliquid eos architecto quaerat repellat soluta veritatis officia aspernatur cumque est aliquam culpa, labore natus saepe velit odio. Earum, sunt.
+                        </p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, amet dolores. Delectus, hic eius nisi quasi obcaecati nostrum tenetur, commodi earum ex iste eos. Voluptatem hic labore tempora aspernatur obcaecati, corrupti sed magni reiciendis atque velit explicabo alias cum nemo dolorum iusto dolore rerum aliquid reprehenderit necessitatibus. Sint veniam ea, officiis perspiciatis odio maxime totam suscipit commodi officia rerum animi!
+                        </p>
+                      <a href="#" class="btn btn-primary">Ir a la página</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- Acordeon -->
+        <div class="row">
+            <div class="p-2 mb-4 col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordeon elemento #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta officiis eaque, placeat dignissimos nulla ducimus a voluptatibus aliquid necessitatibus earum eveniet quas laborum nam eligendi. Maxime sunt modi illo.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordeon elemento #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatibus non? Est, hic! Quos tenetur quasi animi aliquam suscipit deserunt provident, dicta expedita in labore sunt corporis dolorum quibusdam a rerum sit eum. Eveniet, eum! Fuga expedita, beatae esse laborum distinctio earum labore sequi vitae quo adipisci, accusantium veritatis minima!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordeon elemento #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum neque quod voluptatum! Debitis exercitationem libero voluptatibus amet sequi nam quam, cupiditate repellat quo neque vero incidunt repudiandae esse sed! Repellendus quod alias perferendis, vero amet, eaque aperiam nisi quas reiciendis sed ea, quos aliquam aut sequi placeat sit ducimus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class=" bg-dark p-2 mb-2 text-secondary" style="text-align: center;">
+        <p>Roberto Rodriguez Caldera - 190542</p>
+    </footer>
+</body>
+</html>
